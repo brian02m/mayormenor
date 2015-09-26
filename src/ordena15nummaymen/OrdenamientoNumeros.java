@@ -1,15 +1,5 @@
-/* Clase Principal: Main.java
- * 
- * Programa:    Ordenamiento de Números
- * Autor:       Miguel Angel Pérez España
- *              angelshaoran.wordpress.com
- * Escrito:     10 de Diciembre de 2012
- * Compilador:  JDK 1.7.0
- * Plataforma:  Windows 7 x64
- * Descripción del Programa:
- *       Este es un programa que recibe permite introducir 15 números
- *       Y los ordena de menor a mayor y a la inversa.
- */
+
+ 
 package ordena15nummaymen;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -148,7 +138,7 @@ public class OrdenamientoNumeros extends JFrame{
         }
         //JOptionPane.showMessageDialog(null, "El numero menor es:\n"+compCampos[0].getText());       
     }
-    //metodo para ordenar de mayor a menor angelshaoran.wordpress.com
+    //metodo para ordenar de mayor a menor 
     private void ordenaMayorMenor(){
         int auxiliar=0, auxiliar2=0;         
         for(int k=0; k<textoEtiquetas.length;k++){         
@@ -165,7 +155,7 @@ public class OrdenamientoNumeros extends JFrame{
         }
         //JOptionPane.showMessageDialog(null, "El numero menor es:\n"+compCampos[0].getText());   
     }
-    //metodo para limpiar los jtextfields angelshaoran.wordpress.com
+    //metodo para limpiar los jtextfields 
     private void limpiar(){
         for(int i=0; i<textoEtiquetas.length;i++){
             compCampos[i].setText("");
@@ -191,4 +181,4 @@ public class OrdenamientoNumeros extends JFrame{
         }
         
     }
-}//fin de la clase angelshaoran.wordpress.com
+}
